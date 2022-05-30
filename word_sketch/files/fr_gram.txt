@@ -1,0 +1,184 @@
+# Sketch Grammar for French, FreeLing/EAGLES tagset
+# ver. 1.6
+#
+# Changelog
+# - Initial version. [8 March 2006, Adam Kilgarriff]
+# - added *UNIMAP directives [9 Oct 2013, Vojta Kovar]
+# - some UNIMAP corrected [7 Jul 2014, Vit Baisa]
+# - proper nouns added as per customer request [13 Aug 2014, Milos Jakubicek]
+# - relations for prepositions (customer request) [30 Aug 2015, Vojta Kovar]
+# - fixed modifier relation [30 Aug 2015, Vojta Kovar]
+# - added WSPOSLIST [20 Jul 2017 MichalC]
+# - improved by Ludovica Lanini [23 Nov 2017; intership in LCC, <ludovica.lanini@uniroma1.it>]
+# - fixed wrong format of tags & CQL; added relations for prepositions
+# - rewrote with macros and changed tagset to EAGLES [20 Jun 2019, Jan Michelfeit]
+
+*STRUCTLIMIT s
+*DEFAULTATTR tag
+*WSPOSLIST ",noun,-n,verb,-v,adjective,-j,adverb,-r"
+*FIXORDER ;objects of "%w";verbs with "%w" as object;subjects of "%w";verbs with "%w" as subject;modifiers of "%w";nouns modified by "%w";adjectives modified by "%w";verbs modified by "%w";"%w"and/or...;prepositional phrases with nouns;prepositional phrases with verbs;adjective predicates of "%w";subjects of "être %w";"%w" is a ...;pronominal objects of "%w";pronominal subjects of "%w";pronominal possessors of "%w";infinitive objects of "%w";adjectives after "%w";verbs before "%w";prepositions preceeding noun;nouns after preposition
+
+
+
+="%w" and/or ...
+*UNIMAP and/or
+*SYMMETRIC
+1:"N.*" "A.*"{0,3} [word=","]? [lemma="et" | lemma="ou" | word=","] [lemma="de"]? ("D.*"|"SP.*")? "Z.*"{0,2} ("A.*"|"R.*"|[word=","]){0,3} 2:"N.*"
+1:"V.*" [word=","]? [lemma="et" | lemma="ou" | word=","] [lemma="de"]? ("VS.*"|"VA.*"|"R.*"|[word=","]){0,3} 2:"V.*"
+1:"A.*" ("A.*"|"R.*"|[word=","]){0,3} [lemma="et" | lemma="ou" | word=","] ("A.*"|"R.*"|[word=","]){0,3} 2:"A.*"
+1:"A.*" "NC.*" 2:"A.*"
+# ni_ni | neither_nor
+[word="ni"] ("D.*"|"Z.*")? "A.*"? 1:"NC.*" "A.*"{0,3} ("SP.*" "NC.*" "A.*"?)? [lemma="ni"] ("D.*"|"Z.*")? "A.*"? 2:"NC.*"
+[word="ni"] ("D.*"|"Z.*")? "A.*"? "NC.*"? 1:"A.*" ("SP.*" "NC.*" "A.*"?)? [lemma="ni"] ("D.*"|"Z.*")? 2:"A.*"
+[word="ni|ne|n'"] "R.*"{0,2} 1:"V.*" "D.*"? "A.*"? "NC.*"? "A.*"? "R.*"{0,2} [lemma="ni"] "R.*"{0,2} 2:"V.*" & 1.tag=2.tag
+# "%w" mais | "%w" but
+"NC.*"? 1:"A.*" "NC.*"? [lemma="mais"] "NC.*"? 2:[tag="A.*" & word!="bon"]
+
+
+*DUAL
+=objects of "%w"/verbs with "%w" as object
+*UNIMAP object/object_of
+1:[tag="V.*" & lemma!=".{1,2}" & tag!="VS.*"] "R.*"{0,2} "D.*"? ("Z.*"|"A.*"|"R.*"){0,2} 2:[tag="N.*" & lemma!=".{1,2}"]
+2:[tag="N.*" & lemma!=".{1,2}"] ("A.*"|"R.*"){0,2} 1:[tag="V.P.*" & lc!=".*nt"]
+
+
+* DUAL
+#=subjects of "%w"/verbs with "%w" as subject
+*UNIMAP subject/subject_of
+#([tag!="SP.*"]{3} | <s> [tag!="SP.*"]{0,2}) 2:[tag="N.*" & lemma!=".{1,2}"] ("R.*"|"P.*"){0,2} "VA.*" ("R.*"|"P.*"){0,2} 1:[tag="V[^S]P.*" & lc!=".*nt"]
+#([tag!="SP.*"]{3} | <s> [tag!="SP.*"]{0,2}) 2:[tag="N.*" & lemma!=".{1,2}"] ("R.*"|"P.*"){0,2} 1:"VM[^NP].*"
+
+
+*DUAL
+=adjective predicates of "%w"/subjects of "être %w"
+*UNIMAP adj_subject/adj_subject_of
+1:[tag="N.*" & lemma!=".{1,2}"] "R.*"{0,2} "VS.*" "R.*"{0,2} 2:"A.*" "[^ANR]"
+
+
+*DUAL
+="%w" is a .../... is a "%w"
+*UNIMAP predicate/predicate_of
+1:[tag="N.*" & lemma!=".{1,2}"] "R.*"{0,2} "VS.*" ("A.*"|"R.*"|"D.*"){0,3} 2:"N.*" "[^ANR]"
+
+
+*DUAL
+=modifiers of "%w"/nouns modified by "%w"
+*UNIMAP modifier/modifies
+2:[tag="A.*" & lemma!=".{1,2}"] 1:"NC.*"
+1:"NC.*" ("A.*"|"C.*")? 2:[tag="A.*" & lemma!=".{1,2}"]
+
+
+*DUAL
+=modifiers of "%w"/verbs modified by "%w"
+*UNIMAP modifier/modifies
+1:"V.*" ("D.*"|"Z.*")? "A.*"? "NC.*"? 2:[tag="R.*" & lemma!="pas"]
+("VS.*"|"VA.*") 2:[tag="R.*" & lemma!="pas"] 1:[tag="V.P.*" & lc!=".*nt"]
+
+
+*DUAL
+=modifiers of "%w"/adjectives modified by "%w"
+*UNIMAP modifier/modifies
+2:[tag="R.*" & lemma!="plus|pas|très|non"] 1:"A.*"
+
+
+*DUAL
+=noun modifiers of "%w"/nouns modified by noun "%w"
+*UNIMAP modifier/modifies
+("D.*"|"A.*"|"P.*") 1:"NC.*" 2:"NC.*"
+
+
+=infinitive objects of "%w"
+*UNIMAP infin_comp
+1:"V.*" ("R.*"|"PP.*"){0,3} 2:"V.N.*"
+
+
+*DUAL
+=adjectives after "%w"/verbs before "%w"
+*UNIMAP adj_comp/adj_comp_of
+1:[tag="V.*" & lemma="apparaître|demeurer|devenir|paraître|rester|sembler|estimer|trouver|appeler|juger|rendre|nommer|proclamer|considérer|déclarer| désigner|créer|réputer|vivre|naître|mourir|tomber|élir|reconnaître|croire|faire|voir|partir|sortir|monter|venir|rentrer"] "R.*"{0,3} 2:"A.*"
+
+
+*DUAL
+=more/less "%w" than ...
+[lemma="plus|moins|aussi"] 1:"A.*" [lemma="que"] 2:"A.*"
+[lemma="plus|moins|aussi"] 1:"A.*" [lemma="que"] ("D.*"|"PD.*"|"Z.*")? 2:"NC.*"
+
+
+*SEPARATEPAGE prepositional phrases
+*TRINARY
+="%w" %(3.lemma)
+1:"[NAV].*" 3:"SP.*" ("D.*"|"Z.*"|"A.*"){0,3} 2:"N.*"
+1:"[NAV].*" 3:"SP.*" ("D.*"|"Z.*"|"A.*"){0,3} 2:"V.N.*"
+
+
+=pronominal objects of "%w"
+*UNIMAP pro_object
+2:[tag="PP.*" & word="me|m'|te|t'|le|la|les|se"] 1:"VM[^NP].*"
+2:[tag="PP.*" & word="nous"] 1:[tag="VM[^NP].*" & word!=".*ns" & word!=".*mes" ]
+2:[tag="PP.*" & word="vous"] 1:[tag="VM[^NP].*" & word!=".*ez" & word!=".*tes" ]
+2:[tag="PP.*" & word="me|m'|te|t'|le|la|les|se"] "VS.*" "R.*"{0,2} 1:[tag="V[^S]P.*" & lc!=".*nt"]
+2:[tag="PP.*" & word="nous"] [tag="VS.*" & word!=".*ns"] "R.*"{0,2} 1:[tag="V[^S]P.*" & lc!=".*nt"]
+2:[tag="PP.*" & word="vous"] [tag="VS.*" & word!=".*ez"] "R.*"{0,2} 1:[tag="V[^S]P.*" & lc!=".*nt"]
+
+
+=pronoun is "%w"
+2:[tag="PP.*" & word="je|tu|il|elle|ils|elles|on"] "R.*"{0,3} "VS.*" "R.*"{0,3} 1:"A.*"
+2:[tag="PP.*" & word="je|tu|il|elle|ils|elles|on"] "VS.*" "R.*"{0,3} [lc="été"] "R.*"{0,3} 1:"A.*"
+2:[tag="PP.*" & word="nous"] "R.*"{0,3} [tag="VS.*" & word=".*ns|.*mes"] "R.*"{0,3} 1:"A.*"
+2:[tag="PP.*" & word="vous"] "R.*"{0,3} [tag="VS.*" & word=".*ez|.*tes"] "R.*"{0,3} 1:"A.*"
+2:[tag="PP.*" & word="nous"] [tag="VS.*" & word=".*ns|.*mes"] "R.*"{0,3} [lc="été"] "R.*"{0,3} 1:"A.*"
+2:[tag="PP.*" & word="vous"] [tag="VS.*" & word=".*ez|.*tes"] "R.*"{0,3} [lc="été"] "R.*"{0,3} 1:"A.*"
+
+
+=pronominal possessors of "%w"
+*UNIMAP pro_possessor
+2:"DP.*" "A.*"{0,3} 1:"NC.*"
+
+
+=pronominal subjects of "%w"
+*UNIMAP pro_subject
+2:[tag="PP.*" & word="je|tu|il|elle|ils|elles|on"] "R.*"* "PP.*"* 1:"VM[^NP].*"
+2:[tag="PP.*" & word="nous"] "R.*"* "PP.*"? 1:[tag="VM[^NP].*" & word=".*ns|.*mes"]
+2:[tag="PP.*" & word="vous"] "R.*"* "PP.*"? 1:[tag="VM[^NP].*" & word=".*ez|.*tes"]
+2:[tag="PP.*" & word="je|tu|il|elle|ils|elles|on"] "R.*"* "PP.*"* "VS.*" "R.*"{0,2} 1:[tag="V.P.*" & lc!=".*nt"]
+2:[tag="PP.*" & word="nous"] "R.*"* "PP.*"? [tag="VS.*" & word=".*ns"] "R.*"{0,2} 1:[tag="V.P.*" & lc!=".*nt"]
+2:[tag="PP.*" & word="vous"] "R.*"* "PP.*"? [tag="VS.*" & word=".*ez"] "R.*"{0,2} 1:[tag="V.P.*" & lc!=".*nt"]
+[word="c'"] [word="est"] "D.*"? 2:"PP.*" [lemma="qui"] 1:[tag="V.*" & tag!="VA.*" & tag!="VS.*"]
+[word="c'"] [word="est"] "D.*"? 2:"PP.*" [lemma="qui"] "VS.*" "R.*"{0,2} 1:[tag="V.P.*" & lc!=".*nt"]
+#=indefinite pronouns subjects of "%w"
+#([tag!="SP.*"]{3} | <s> [tag!="SP.*"]{0,2}) 2:"PI.*" ("SP.*"|"NC.*")? [tag="PP.*" & word!="je|tu|il|elle|ils|elles|on"]? 1:"VM[^NP].*"
+#([tag!="SP.*"]{3} | <s> [tag!="SP.*"]{0,2}) 2:"PI.*" ("SP.*"|"NC.*")? [tag="PP.*" & word!="je|tu|il|elle|ils|elles|on"]? 1:"VS.*" "R.*"{0,2} [tag="V.P.*" & lc!=".*nt"]
+
+
+=prepositions preceeding noun/nouns after preposition
+2:"SP.*" ("D.*"|"Z.*"|"A.*"){0,4} 1:"N.*"
+
+
+*UNARY
+=aller "%w"
+[lemma="aller"] 1:"V.N.*"
+
+*UNARY
+=venir de "%w"
+[lemma="venir"] [word="de"] 1:"V.N.*"
+
+*UNARY
+=devoir "%w"
+[lemma="devoir"] 1:"V.N.*"
+
+*UNARY
+=pouvoir "%w"
+[lemma="pouvoir"] 1:"V.N.*"
+
+*UNARY
+=être en train de "%w"
+"VS.*" [lemma="en"] [lemma="train"] [lemma="de"] 1:"V.N.*"
+
+*UNARY
+=with_indefinite_article
+    [lemma="un"] ("Z.*"|"A.*"|"R.*"){0,2} 1:"N.*"
+
+*UNARY
+=with_definite_article
+    [lemma="le"] ("Z.*"|"A.*"|"R.*"){0,2} 1:"N.*"
+
