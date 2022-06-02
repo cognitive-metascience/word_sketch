@@ -66,6 +66,49 @@ class Grammar:
                         print()
                         print(j.name+":")
                         result.writeout()
+
+
+    def find2(self, lemma, corpus): #funkcja robi to samo, tylko wyniki zapisuje do słownika, a nie printuje
+        sketch = {}
+        if self.order == []:
+            for j in self.collocations:
+                result = j.search(lemma, corpus)
+                if len(result.colocs) > 0:
+                    sketch[j.name] = result
+        for i in self.order:
+            for j in self.collocations:
+                if j.name == i:
+                    result = j.search(lemma, corpus)
+                    if len(result.colocs) > 0:
+                        sketch[j.name] = result
+        return sketch
+
+
+class WordSketch(dict):
+    def __init__(self, *arg, **kw):
+        super(WordSketch, self).__init__(*arg, **kw)
+
+    def writeout(self): #wypisanie wszystkiego
+        for col in self:
+            self.write_one(col)
+
+    def give_keys(self):
+        return [col for col in self]
+
+    def write_one(self, col): #wypisanie konkretnej kolokacji
+        print(col)
+        self[col].writeout()
+        print()
+
+    def word_difference(self, WordSketch):
+        # funkcja znajduje kolokacje wspólne dla obu słów i je wypisuje
+        common = [element for element in WordSketch.give_keys() if element in self.give_keys()]
+        for el in common:
+            self.write_one(el)
+            WordSketch.write_one(el)
+            print('----------------------')
+
+
 class Amount:
     def __init__(self,min,max):
         self.min=min

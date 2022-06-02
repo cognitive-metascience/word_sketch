@@ -14,17 +14,29 @@ grammar=grammar_import.read_grammar_file("files/fr_gram.txt")
 
 #w tej funkcji gramatyka przyjmuje korpus i lemmę, i wyszukuje w korpusie wszystkie występowania tej lemmy które pasują do kolokacji
 #zapisanych w gramatyce
-grammar.find("global",corpus)
+#grammar.find("global",corpus)
+
+#zamiast wypisywania, szkic słowa powstaje jako słownikopodobny obiekt i jest zapisany na zmienną
+sketch1 = grammar_import.WordSketch(grammar.find2("global",corpus))
+sketch1.writeout() #można go też wypisać - wygląda to jak poprzednio (czyli przy funkcji find)
 
 print()
 print("Gramatyka j. polskiego:")
 grammar=grammar_import.read_grammar_file("files/pl_gram.txt")
 corpus=grammar_structure.Corpus("files/aktualnosci_uw_litopad_2021.vert")
-grammar.find("uniwersytet",corpus)
-#0:17
+sketch2 = grammar_import.WordSketch(grammar.find2("uniwersytet",corpus))
+sketch2.writeout()
+sketch3 = grammar_import.WordSketch(grammar.find2("student",corpus))
+#sketch3.writeout()
 
 print()
 print("Gramatyka j. angielskiego:")
 corpus=grammar_structure.Corpus("files/en_pln__english.vert")
 grammar=grammar_import.read_grammar_file("files/en_gram.txt")
-grammar.find("union",corpus)
+sketch4 = grammar_import.WordSketch(grammar.find2("union",corpus))
+sketch4.writeout()
+
+#tutaj przykładowa operacja porównania na dwóch szkicach słów
+print()
+print("Porównanie szkiców słów dla 'uniwersytet' i 'student': \n")
+sketch2.word_difference(sketch3)
