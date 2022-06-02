@@ -1,4 +1,4 @@
-import regex
+import re
 
 import grammar_import
 
@@ -47,29 +47,29 @@ class Word:
             match_keys=attribute["match"].keys()
             if "word" in match_keys:
                 for i in attribute["match"]["word"]:
-                    if not regex.fullmatch(i, self.word):
+                    if not re.fullmatch(i, self.word):
                             match=False
             if "tag" in match_keys:
                 for i in attribute["match"]["tag"]:
-                    if not regex.fullmatch(i, self.tag):
+                    if not re.fullmatch(i, self.tag):
                         match=False
             if "lemma" in match_keys:
                 for i in attribute["match"]["lemma"]:
-                    if not regex.fullmatch(i, self.lemma):
+                    if not re.fullmatch(i, self.lemma):
                         match=False
         if "not_match" in attribute.keys():
             not_match_keys = attribute["not_match"].keys()
             if "word" in not_match_keys:
                 for i in attribute["not_match"]["word"]:
-                    if regex.fullmatch(i, self.word):
+                    if re.fullmatch(i, self.word):
                         match=False
             if "tag" in not_match_keys:
                 for i in attribute["not_match"]["tag"]:
-                    if regex.fullmatch(i, self.tag):
+                    if re.fullmatch(i, self.tag):
                         match=False
             if "lemma" in not_match_keys:
                 for i in attribute["not_match"]["lemma"]:
-                    if regex.fullmatch(i, self.lemma):
+                    if re.fullmatch(i, self.lemma):
                         match=False
         return match
 
