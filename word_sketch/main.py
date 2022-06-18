@@ -40,3 +40,8 @@ sketch4.writeout()
 print()
 print("Porównanie szkiców słów dla 'uniwersytet' i 'student': \n")
 sketch2.word_difference(sketch3)
+
+#KPWr
+print("Korzystanie z KPWr")
+corpus=grammar_structure.Corpus("files/KPWr/00100622.xml", KPWr=True)
+#corpus.writeout()

@@ -1,0 +1,4850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chunkList SYSTEM "ccl.dtd">
+<chunkList>
+ <chunk id="ch1">
+  <sentence id="sent1">
+   <tok>
+    <orth>Ls</orth>
+    <lex><base>Ls</base><ctag>ign</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>k</orth>
+    <lex><base>k</base><ctag>prep:dat</ctag></lex>
+    <lex><base>kodeks</base><ctag>brev:pun</ctag></lex>
+    <lex><base>kompania</base><ctag>brev:npun</ctag></lex>
+    <lex><base>koło</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>oznacza</orth>
+    <lex><base>oznaczać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="wsd_oznaczać">1</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_oznaczać">oznaczać-2</prop>
+   </tok>
+   <tok>
+    <orth>liczbę</orth>
+    <lex><base>liczba</base><ctag>subst:sg:acc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>studentów</orth>
+    <lex><base>student</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>student</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>studiów</orth>
+    <lex><base>studia</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>studio</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>studium</base><ctag>subst:pl:gen:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>stacjonarnych</orth>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>wyłączeniem</orth>
+    <lex><base>wyłączenie</base><ctag>subst:sg:inst:n</ctag></lex>
+    <lex><base>wyłączyć</base><ctag>ger:sg:inst:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>osób</orth>
+    <lex><base>osoba</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">1</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_osoba">osoba-1</prop>
+   </tok>
+   <tok>
+    <orth>po</orth>
+    <lex><base>PO</base><ctag>subst:sg:nom:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:acc:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:inst:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:voc:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:nom:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:dat:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:acc:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:inst:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:loc:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:sg:voc:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:nom:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:dat:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:acc:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:inst:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:voc:f</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:dat:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:inst:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:loc:n</ctag></lex>
+    <lex><base>PO</base><ctag>subst:pl:voc:n</ctag></lex>
+    <lex><base>po</base><ctag>prep:acc</ctag></lex>
+    <lex><base>po</base><ctag>prep:loc</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>ostatnim</orth>
+    <lex><base>ostatni</base><ctag>adj:sg:inst:m1:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>adj:sg:loc:m1:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>adj:sg:inst:m2:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>adj:sg:loc:m2:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>adj:sg:inst:m3:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>adj:sg:inst:n:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>adj:sg:loc:n:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>adj:pl:dat:m1:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>adj:pl:dat:m2:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>adj:pl:dat:m3:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>adj:pl:dat:f:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>adj:pl:dat:n:pos</ctag></lex>
+    <lex><base>ostatni</base><ctag>subst:sg:inst:m1</ctag></lex>
+    <lex><base>ostatni</base><ctag>subst:sg:loc:m1</ctag></lex>
+    <lex><base>ostatni</base><ctag>subst:pl:dat:m1</ctag></lex>
+    <lex><base>ostatnie</base><ctag>subst:sg:inst:n</ctag></lex>
+    <lex><base>ostatnie</base><ctag>subst:sg:loc:n</ctag></lex>
+    <lex><base>ostatnie</base><ctag>subst:pl:dat:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>roku</orth>
+    <lex><base>rok</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <lex><base>rok</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <lex><base>rok</base><ctag>subst:sg:voc:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>studiów</orth>
+    <lex><base>studia</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>studio</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>studium</base><ctag>subst:pl:gen:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>bez</orth>
+    <lex><base>bez</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>bez</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <lex><base>bez</base><ctag>subst:sg:acc:m3</ctag></lex>
+    <lex><base>beza</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>egzaminu</orth>
+    <lex><base>egzamin</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>dyplomowego</orth>
+    <lex><base>dyplomowy</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+    <lex><base>dyplomowy</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+    <lex><base>dyplomowy</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+    <lex><base>dyplomowy</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+    <lex><base>dyplomowy</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <lex><base>dyplomowy</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>k</orth>
+    <lex><base>k</base><ctag>prep:dat</ctag></lex>
+    <lex><base>kodeks</base><ctag>brev:pun</ctag></lex>
+    <lex><base>kompania</base><ctag>brev:npun</ctag></lex>
+    <lex><base>koło</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tej</orth>
+    <lex><base>ten</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>grupie</orth>
+    <lex><base>grupa</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>grupa</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">1</ann>
+    <prop key="sense:wsd_grupa">grupa-1</prop>
+   </tok>
+   <tok>
+    <orth>kierunków</orth>
+    <lex><base>kierunek</base><ctag>subst:pl:gen:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tej</orth>
+    <lex><base>ten</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelni</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>wynikającą</orth>
+    <lex><base>wynikać</base><ctag>pact:sg:acc:f:imperf:aff</ctag></lex>
+    <lex><base>wynikać</base><ctag>pact:sg:inst:f:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>danych</orth>
+    <lex><base>dana</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>dana</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:loc:n</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>nadesłanych</orth>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>przez</orth>
+    <lex><base>przez</base><ctag>prep:acc:nwok</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tą</orth>
+    <lex><base>ten</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelnię</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:acc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+ <chunk id="ch2">
+  <sentence id="sent2">
+   <tok>
+    <orth>kd</orth>
+    <lex><base>kd</base><ctag>ign</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>oznacza</orth>
+    <lex><base>oznaczać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="wsd_oznaczać">1</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_oznaczać">oznaczać-2</prop>
+   </tok>
+   <tok>
+    <orth>wskaźnik</orth>
+    <lex><base>wskaźnik</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <lex><base>wskaźnik</base><ctag>subst:sg:acc:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>kosztochłonności</orth>
+    <lex><base>kosztochłonności</base><ctag>ign</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>stacjonarnych</orth>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>studiów</orth>
+    <lex><base>studia</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>studio</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>studium</base><ctag>subst:pl:gen:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>doktoranckich</orth>
+    <lex><base>doktorancki</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>d</orth>
+    <lex><base>dawny</base><ctag>brev:pun</ctag></lex>
+    <lex><base>dom</base><ctag>brev:pun</ctag></lex>
+    <lex><base>dzień</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">1</ann>
+    <ann chan="wsd_d">1</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_d">d-4</prop>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tej</orth>
+    <lex><base>ten</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>grupie</orth>
+    <lex><base>grupa</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>grupa</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">1</ann>
+    <prop key="sense:wsd_grupa">grupa-1</prop>
+   </tok>
+   <tok>
+    <orth>dziedzin</orth>
+    <lex><base>dziedzina</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>nauki</orth>
+    <lex><base>nauka</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>nauka</base><ctag>subst:pl:nom:f</ctag></lex>
+    <lex><base>nauka</base><ctag>subst:pl:acc:f</ctag></lex>
+    <lex><base>nauka</base><ctag>subst:pl:voc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>ustalonych</orth>
+    <lex><base>ustalić</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>rozporządzeniu</orth>
+    <lex><base>rozporządzenie</base><ctag>subst:sg:dat:n</ctag></lex>
+    <lex><base>rozporządzenie</base><ctag>subst:sg:loc:n</ctag></lex>
+    <lex><base>rozporządzić</base><ctag>ger:sg:dat:n:perf:aff</ctag></lex>
+    <lex><base>rozporządzić</base><ctag>ger:sg:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>sprawie</orth>
+    <lex><base>sprawa</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>sprawa</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>wskaźników</orth>
+    <lex><base>wskaźnik</base><ctag>subst:pl:gen:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>kosztochłonności</orth>
+    <lex><base>kosztochłonności</base><ctag>ign</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+ <chunk id="ch3">
+  <sentence id="sent3">
+   <tok>
+    <orth>y</orth>
+    <lex><base>y</base><ctag>ign</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>oznacza</orth>
+    <lex><base>oznaczać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="wsd_oznaczać">1</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_oznaczać">oznaczać-2</prop>
+   </tok>
+   <tok>
+    <orth>liczbę</orth>
+    <lex><base>liczba</base><ctag>subst:sg:acc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>grup</orth>
+    <lex><base>grupa</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">1</ann>
+    <prop key="sense:wsd_grupa">grupa-1</prop>
+   </tok>
+   <tok>
+    <orth>dziedzin</orth>
+    <lex><base>dziedzina</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>nauki</orth>
+    <lex><base>nauka</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>nauka</base><ctag>subst:pl:nom:f</ctag></lex>
+    <lex><base>nauka</base><ctag>subst:pl:acc:f</ctag></lex>
+    <lex><base>nauka</base><ctag>subst:pl:voc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>ustalonych</orth>
+    <lex><base>ustalić</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>ustalić</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>rozporządzeniu</orth>
+    <lex><base>rozporządzenie</base><ctag>subst:sg:dat:n</ctag></lex>
+    <lex><base>rozporządzenie</base><ctag>subst:sg:loc:n</ctag></lex>
+    <lex><base>rozporządzić</base><ctag>ger:sg:dat:n:perf:aff</ctag></lex>
+    <lex><base>rozporządzić</base><ctag>ger:sg:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>sprawie</orth>
+    <lex><base>sprawa</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>sprawa</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>wskaźników</orth>
+    <lex><base>wskaźnik</base><ctag>subst:pl:gen:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>kosztochłonności</orth>
+    <lex><base>kosztochłonności</base><ctag>ign</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+ <chunk id="ch4">
+  <sentence id="sent4">
+   <tok>
+    <orth>Ld</orth>
+    <lex><base>Ld</base><ctag>ign</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>d</orth>
+    <lex><base>dawny</base><ctag>brev:pun</ctag></lex>
+    <lex><base>dom</base><ctag>brev:pun</ctag></lex>
+    <lex><base>dzień</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_dzień">1</ann>
+    <ann chan="wsd_d">1</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_d">d-4</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>oznacza</orth>
+    <lex><base>oznaczać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">1</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_oznaczać">oznaczać-2</prop>
+   </tok>
+   <tok>
+    <orth>liczbę</orth>
+    <lex><base>liczba</base><ctag>subst:sg:acc:f</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>uczestników</orth>
+    <lex><base>uczestnik</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>uczestnik</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>stacjonarnych</orth>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>stacjonarny</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>studiów</orth>
+    <lex><base>studia</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>studio</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>studium</base><ctag>subst:pl:gen:n</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>doktoranckich</orth>
+    <lex><base>doktorancki</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>doktorancki</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>wyłączeniem</orth>
+    <lex><base>wyłączenie</base><ctag>subst:sg:inst:n</ctag></lex>
+    <lex><base>wyłączyć</base><ctag>ger:sg:inst:n:perf:aff</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>osób</orth>
+    <lex><base>osoba</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">1</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_osoba">osoba-1</prop>
+   </tok>
+   <tok>
+    <orth>pozostających</orth>
+    <lex><base>pozostawać</base><ctag>pact:pl:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:loc:m1:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:loc:m2:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:loc:m3:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:gen:f:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:loc:f:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:gen:n:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:loc:n:imperf:aff</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tą</orth>
+    <lex><base>ten</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelnią</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:inst:f</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>stosunku</orth>
+    <lex><base>stosunek</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <lex><base>stosunek</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <lex><base>stosunek</base><ctag>subst:sg:voc:m3</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>pracy</orth>
+    <lex><base>praca</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>praca</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>praca</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>d</orth>
+    <lex><base>dawny</base><ctag>brev:pun</ctag></lex>
+    <lex><base>dom</base><ctag>brev:pun</ctag></lex>
+    <lex><base>dzień</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_dzień">2</ann>
+    <ann chan="wsd_d">2</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_d">d-4</prop>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tej</orth>
+    <lex><base>ten</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>grupie</orth>
+    <lex><base>grupa</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>grupa</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">1</ann>
+    <prop key="sense:wsd_grupa">grupa-1</prop>
+   </tok>
+   <tok>
+    <orth>dziedzin</orth>
+    <lex><base>dziedzina</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>nauki</orth>
+    <lex><base>nauka</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>nauka</base><ctag>subst:pl:nom:f</ctag></lex>
+    <lex><base>nauka</base><ctag>subst:pl:acc:f</ctag></lex>
+    <lex><base>nauka</base><ctag>subst:pl:voc:f</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tej</orth>
+    <lex><base>ten</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelni</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>wynikającą</orth>
+    <lex><base>wynikać</base><ctag>pact:sg:acc:f:imperf:aff</ctag></lex>
+    <lex><base>wynikać</base><ctag>pact:sg:inst:f:imperf:aff</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>danych</orth>
+    <lex><base>dana</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>dana</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:loc:n</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>nadesłanych</orth>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>przez</orth>
+    <lex><base>przez</base><ctag>prep:acc:nwok</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tą</orth>
+    <lex><base>ten</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelnię</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:acc:f</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>tym</orth>
+    <lex><base>ten</base><ctag>adj:sg:inst:m1:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:m1:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:inst:m2:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:m2:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:inst:m3:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:inst:n:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:n:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:dat:m1:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:dat:m2:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:dat:m3:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:dat:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:dat:n:pos</ctag></lex>
+    <lex><base>to</base><ctag>subst:sg:inst:n</ctag></lex>
+    <lex><base>to</base><ctag>subst:sg:loc:n</ctag></lex>
+    <lex><base>tym</base><ctag>adv</ctag></lex>
+    <lex><base>tym</base><ctag>conj</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>że</orth>
+    <lex><base>że</base><ctag>comp</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>odniesieniu</orth>
+    <lex><base>odniesienie</base><ctag>subst:sg:dat:n</ctag></lex>
+    <lex><base>odniesienie</base><ctag>subst:sg:loc:n</ctag></lex>
+    <lex><base>odnieść</base><ctag>ger:sg:dat:n:perf:aff</ctag></lex>
+    <lex><base>odnieść</base><ctag>ger:sg:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>do</orth>
+    <lex><base>do</base><ctag>prep:gen</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:nom:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:dat:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:acc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:inst:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:loc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:voc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:dat:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:inst:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:loc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:voc:n</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelni</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>wojskowych</orth>
+    <lex><base>wojskowy</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>wojskowy</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>wojskowy</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>wojskowy</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>wojskowy</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>wojskowy</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>wojskowy</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>wojskowy</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>wojskowy</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>wojskowy</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>wojskowy</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <lex><base>wojskowy</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>wojskowy</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <lex><base>wojskowy</base><ctag>subst:pl:loc:m1</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>dotyczy</orth>
+    <lex><base>dotyczyć</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>to</orth>
+    <lex><base>ten</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:acc:n:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:voc:n:pos</ctag></lex>
+    <lex><base>to</base><ctag>conj</ctag></lex>
+    <lex><base>to</base><ctag>pred</ctag></lex>
+    <lex><base>to</base><ctag>qub</ctag></lex>
+    <lex><base>to</base><ctag>subst:sg:nom:n</ctag></lex>
+    <lex><base>to</base><ctag>subst:sg:acc:n</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>tylko</orth>
+    <lex><base>Tylka</base><ctag>subst:sg:voc:f</ctag></lex>
+    <lex><base>tylko</base><ctag>conj</ctag></lex>
+    <lex><base>tylko</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>osób</orth>
+    <lex><base>osoba</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">2</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_osoba">osoba-1</prop>
+   </tok>
+   <tok>
+    <orth>cywilnych</orth>
+    <lex><base>cywilny</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>cywilny</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>cywilny</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>cywilny</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>cywilny</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>cywilny</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>cywilny</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>cywilny</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>cywilny</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>cywilny</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>cywilny</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_dzień">0</ann>
+    <ann chan="wsd_d">0</ann>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+ <chunk id="ch5">
+  <sentence id="sent5">
+   <tok>
+    <orth>Lsc</orth>
+    <lex><base>Lsc</base><ctag>ign</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>oznacza</orth>
+    <lex><base>oznaczać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="wsd_oznaczać">1</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_oznaczać">oznaczać-2</prop>
+   </tok>
+   <tok>
+    <orth>liczbę</orth>
+    <lex><base>liczba</base><ctag>subst:sg:acc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>cudzoziemców</orth>
+    <lex><base>cudzoziemiec</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>cudzoziemiec</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>uczestników</orth>
+    <lex><base>uczestnik</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>uczestnik</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>rocznych</orth>
+    <lex><base>roczny</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>roczny</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>roczny</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>roczny</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>roczny</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>roczny</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>roczny</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>roczny</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>roczny</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>roczny</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>roczny</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>kursów</orth>
+    <lex><base>kurs</base><ctag>subst:pl:gen:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>przygotowawczych</orth>
+    <lex><base>przygotowawczy</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>przygotowawczy</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>przygotowawczy</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>przygotowawczy</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>przygotowawczy</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>przygotowawczy</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>przygotowawczy</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>przygotowawczy</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>przygotowawczy</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>przygotowawczy</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>przygotowawczy</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>do</orth>
+    <lex><base>do</base><ctag>prep:gen</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:nom:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:dat:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:acc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:inst:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:loc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:voc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:dat:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:inst:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:loc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:voc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>podjęcia</orth>
+    <lex><base>podjąć</base><ctag>ger:sg:gen:n:perf:aff</ctag></lex>
+    <lex><base>podjęcie</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>podjęcie</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>podjęcie</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>podjęcie</base><ctag>subst:pl:voc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>nauki</orth>
+    <lex><base>nauka</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>nauka</base><ctag>subst:pl:nom:f</ctag></lex>
+    <lex><base>nauka</base><ctag>subst:pl:acc:f</ctag></lex>
+    <lex><base>nauka</base><ctag>subst:pl:voc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>języku</orth>
+    <lex><base>język</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <lex><base>język</base><ctag>subst:sg:voc:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">1</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_język">język-2</prop>
+   </tok>
+   <tok>
+    <orth>polskim</orth>
+    <lex><base>polski</base><ctag>adj:sg:inst:m1:pos</ctag></lex>
+    <lex><base>polski</base><ctag>adj:sg:loc:m1:pos</ctag></lex>
+    <lex><base>polski</base><ctag>adj:sg:inst:m2:pos</ctag></lex>
+    <lex><base>polski</base><ctag>adj:sg:loc:m2:pos</ctag></lex>
+    <lex><base>polski</base><ctag>adj:sg:inst:m3:pos</ctag></lex>
+    <lex><base>polski</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
+    <lex><base>polski</base><ctag>adj:sg:inst:n:pos</ctag></lex>
+    <lex><base>polski</base><ctag>adj:sg:loc:n:pos</ctag></lex>
+    <lex><base>polski</base><ctag>adj:pl:dat:m1:pos</ctag></lex>
+    <lex><base>polski</base><ctag>adj:pl:dat:m2:pos</ctag></lex>
+    <lex><base>polski</base><ctag>adj:pl:dat:m3:pos</ctag></lex>
+    <lex><base>polski</base><ctag>adj:pl:dat:f:pos</ctag></lex>
+    <lex><base>polski</base><ctag>adj:pl:dat:n:pos</ctag></lex>
+    <lex><base>polski</base><ctag>subst:sg:inst:m3</ctag></lex>
+    <lex><base>polski</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <lex><base>polski</base><ctag>subst:pl:dat:m3</ctag></lex>
+    <lex><base>polskie</base><ctag>subst:sg:inst:n</ctag></lex>
+    <lex><base>polskie</base><ctag>subst:sg:loc:n</ctag></lex>
+    <lex><base>polskie</base><ctag>subst:pl:dat:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>jednostkach</orth>
+    <lex><base>jednostka</base><ctag>subst:pl:loc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>wyznaczonych</orth>
+    <lex><base>wyznaczyć</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>wyznaczyć</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>wyznaczyć</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>wyznaczyć</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>wyznaczyć</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>wyznaczyć</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>wyznaczyć</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>wyznaczyć</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>wyznaczyć</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>wyznaczyć</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>wyznaczyć</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>przez</orth>
+    <lex><base>przez</base><ctag>prep:acc:nwok</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>ministra</orth>
+    <lex><base>minister</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>minister</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>właściwego</orth>
+    <lex><base>właściwy</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+    <lex><base>właściwy</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+    <lex><base>właściwy</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+    <lex><base>właściwy</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+    <lex><base>właściwy</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <lex><base>właściwy</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>do</orth>
+    <lex><base>do</base><ctag>prep:gen</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:nom:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:dat:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:acc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:inst:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:loc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:sg:voc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:dat:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:inst:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:loc:n</ctag></lex>
+    <lex><base>do</base><ctag>subst:pl:voc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>spraw</orth>
+    <lex><base>sprawa</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>sprawić</base><ctag>impt:sg:sec:perf</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>szkolnictwa</orth>
+    <lex><base>szkolnictwo</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>szkolnictwo</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>szkolnictwo</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>szkolnictwo</base><ctag>subst:pl:voc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>wyższego</orth>
+    <lex><base>wysoki</base><ctag>adj:sg:gen:m1:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:sg:acc:m1:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:sg:gen:m2:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:sg:acc:m2:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:sg:gen:m3:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:sg:gen:n:com</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>którym</orth>
+    <lex><base>który</base><ctag>adj:sg:inst:m1:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:loc:m1:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:inst:m2:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:loc:m2:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:inst:m3:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:inst:n:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:loc:n:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:pl:dat:m1:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:pl:dat:m2:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:pl:dat:m3:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:pl:dat:f:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:pl:dat:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>przysługują</orth>
+    <lex><base>przysługiwać</base><ctag>fin:pl:ter:imperf</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>uprawnienia</orth>
+    <lex><base>uprawnienie</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>uprawnienie</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>uprawnienie</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>uprawnienie</base><ctag>subst:pl:voc:n</ctag></lex>
+    <lex><base>uprawnić</base><ctag>ger:sg:gen:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>osób</orth>
+    <lex><base>osoba</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">1</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_osoba">osoba-1</prop>
+   </tok>
+   <tok>
+    <orth>odbywających</orth>
+    <lex><base>odbywać</base><ctag>pact:pl:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>odbywać</base><ctag>pact:pl:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>odbywać</base><ctag>pact:pl:loc:m1:imperf:aff</ctag></lex>
+    <lex><base>odbywać</base><ctag>pact:pl:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>odbywać</base><ctag>pact:pl:loc:m2:imperf:aff</ctag></lex>
+    <lex><base>odbywać</base><ctag>pact:pl:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>odbywać</base><ctag>pact:pl:loc:m3:imperf:aff</ctag></lex>
+    <lex><base>odbywać</base><ctag>pact:pl:gen:f:imperf:aff</ctag></lex>
+    <lex><base>odbywać</base><ctag>pact:pl:loc:f:imperf:aff</ctag></lex>
+    <lex><base>odbywać</base><ctag>pact:pl:gen:n:imperf:aff</ctag></lex>
+    <lex><base>odbywać</base><ctag>pact:pl:loc:n:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>studia</orth>
+    <lex><base>studia</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>studia</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>studia</base><ctag>subst:pl:voc:n</ctag></lex>
+    <lex><base>studio</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>studio</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>studio</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>studio</base><ctag>subst:pl:voc:n</ctag></lex>
+    <lex><base>studium</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>studium</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>studium</base><ctag>subst:pl:voc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>wyższe</orth>
+    <lex><base>wysoki</base><ctag>adj:sg:nom:n:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:sg:acc:n:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:sg:voc:n:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:pl:nom:m2:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:pl:acc:m2:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:pl:voc:m2:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:pl:nom:m3:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:pl:acc:m3:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:pl:voc:m3:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:pl:nom:f:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:pl:acc:f:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:pl:voc:f:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:pl:nom:n:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:pl:acc:n:com</ctag></lex>
+    <lex><base>wysoki</base><ctag>adj:pl:voc:n:com</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>wynikającą</orth>
+    <lex><base>wynikać</base><ctag>pact:sg:acc:f:imperf:aff</ctag></lex>
+    <lex><base>wynikać</base><ctag>pact:sg:inst:f:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>danych</orth>
+    <lex><base>dana</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>dana</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:loc:n</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>Biura</orth>
+    <lex><base>biuro</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>biuro</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>biuro</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>biuro</base><ctag>subst:pl:voc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>Uznawalności</orth>
+    <lex><base>Uznawalności</base><ctag>ign</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>Wykształcenia</orth>
+    <lex><base>wykształcenie</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>wykształcenie</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>wykształcenie</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>wykształcenie</base><ctag>subst:pl:voc:n</ctag></lex>
+    <lex><base>wykształcić</base><ctag>ger:sg:gen:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>Wymiany</orth>
+    <lex><base>wymian</base><ctag>subst:pl:nom:m3</ctag></lex>
+    <lex><base>wymian</base><ctag>subst:pl:acc:m3</ctag></lex>
+    <lex><base>wymian</base><ctag>subst:pl:voc:m3</ctag></lex>
+    <lex><base>wymiana</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>wymiana</base><ctag>subst:pl:nom:f</ctag></lex>
+    <lex><base>wymiana</base><ctag>subst:pl:acc:f</ctag></lex>
+    <lex><base>wymiana</base><ctag>subst:pl:voc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>Międzynarodowej</orth>
+    <lex><base>międzynarodowy</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>międzynarodowy</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>międzynarodowy</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>n</orth>
+    <lex><base>nad</base><ctag>brev:pun</ctag></lex>
+    <lex><base>następny</base><ctag>brev:pun</ctag></lex>
+    <lex><base>nijaki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>nowy</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>oznacza</orth>
+    <lex><base>oznaczać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="wsd_oznaczać">2</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+    <prop key="sense:wsd_oznaczać">oznaczać-2</prop>
+   </tok>
+   <tok>
+    <orth>liczbę</orth>
+    <lex><base>liczba</base><ctag>subst:sg:acc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelni</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>danej</orth>
+    <lex><base>dana</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>dana</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>dana</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>dany</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:sg:gen:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:sg:dat:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:sg:loc:f:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <tok>
+    <orth>grupie</orth>
+    <lex><base>grupa</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>grupa</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">1</ann>
+    <prop key="sense:wsd_grupa">grupa-1</prop>
+   </tok>
+   <tok>
+    <orth>uczelni</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_język">0</ann>
+    <ann chan="wsd_osoba">0</ann>
+    <ann chan="wsd_grupa">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+ <chunk id="ch6">
+  <sentence id="sent6">
+   <tok>
+    <orth>5</orth>
+    <lex><base>5</base><ctag>ign</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="sent7">
+   <tok>
+    <orth>Składnik</orth>
+    <lex><base>składnik</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <lex><base>składnik</base><ctag>subst:sg:acc:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>kadrowy</orth>
+    <lex><base>kadrowy</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+    <lex><base>kadrowy</base><ctag>adj:sg:voc:m1:pos</ctag></lex>
+    <lex><base>kadrowy</base><ctag>adj:sg:nom:m2:pos</ctag></lex>
+    <lex><base>kadrowy</base><ctag>adj:sg:voc:m2:pos</ctag></lex>
+    <lex><base>kadrowy</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+    <lex><base>kadrowy</base><ctag>adj:sg:acc:m3:pos</ctag></lex>
+    <lex><base>kadrowy</base><ctag>adj:sg:voc:m3:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tej</orth>
+    <lex><base>ten</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelni</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>o</orth>
+    <lex><base>o</base><ctag>interj</ctag></lex>
+    <lex><base>o</base><ctag>prep:acc</ctag></lex>
+    <lex><base>o</base><ctag>prep:loc</ctag></lex>
+    <lex><base>ojciec</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>którym</orth>
+    <lex><base>który</base><ctag>adj:sg:inst:m1:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:loc:m1:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:inst:m2:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:loc:m2:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:inst:m3:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:inst:n:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:sg:loc:n:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:pl:dat:m1:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:pl:dat:m2:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:pl:dat:m3:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:pl:dat:f:pos</ctag></lex>
+    <lex><base>który</base><ctag>adj:pl:dat:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>mowa</orth>
+    <lex><base>mowa</base><ctag>subst:sg:nom:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>ust</orth>
+    <lex><base>usta</base><ctag>subst:pl:gen:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>3</orth>
+    <lex><base>3</base><ctag>ign</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>określa</orth>
+    <lex><base>określać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>się</orth>
+    <lex><base>się</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>następujący</orth>
+    <lex><base>następować</base><ctag>pact:sg:nom:m1:imperf:aff</ctag></lex>
+    <lex><base>następować</base><ctag>pact:sg:nom:m2:imperf:aff</ctag></lex>
+    <lex><base>następować</base><ctag>pact:sg:nom:m3:imperf:aff</ctag></lex>
+    <lex><base>następować</base><ctag>pact:sg:acc:m3:imperf:aff</ctag></lex>
+    <lex><base>następować</base><ctag>pact:pl:nom:m1:imperf:aff</ctag></lex>
+    <lex><base>następujący</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+    <lex><base>następujący</base><ctag>adj:sg:voc:m1:pos</ctag></lex>
+    <lex><base>następujący</base><ctag>adj:sg:nom:m2:pos</ctag></lex>
+    <lex><base>następujący</base><ctag>adj:sg:voc:m2:pos</ctag></lex>
+    <lex><base>następujący</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+    <lex><base>następujący</base><ctag>adj:sg:acc:m3:pos</ctag></lex>
+    <lex><base>następujący</base><ctag>adj:sg:voc:m3:pos</ctag></lex>
+    <lex><base>następujący</base><ctag>adj:pl:nom:m1:pos</ctag></lex>
+    <lex><base>następujący</base><ctag>adj:pl:voc:m1:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>sposób</orth>
+    <lex><base>sposobić</base><ctag>impt:sg:sec:imperf</ctag></lex>
+    <lex><base>sposób</base><ctag>pred</ctag></lex>
+    <lex><base>sposób</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <lex><base>sposób</base><ctag>subst:sg:acc:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>:</orth>
+    <lex><base>:</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>oznacza</orth>
+    <lex><base>oznaczać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="wsd_oznaczać">1</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+    <prop key="sense:wsd_oznaczać">oznaczać-2</prop>
+   </tok>
+   <tok>
+    <orth>liczbę</orth>
+    <lex><base>liczba</base><ctag>subst:sg:acc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>zatrudnionych</orth>
+    <lex><base>zatrudniona</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>zatrudniona</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:loc:m1</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>etatach</orth>
+    <lex><base>etat</base><ctag>subst:pl:loc:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tej</orth>
+    <lex><base>ten</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelni</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>na</orth>
+    <lex><base>na</base><ctag>interj</ctag></lex>
+    <lex><base>na</base><ctag>prep:acc</ctag></lex>
+    <lex><base>na</base><ctag>prep:loc</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>stanowiskach</orth>
+    <lex><base>stanowisko</base><ctag>subst:pl:loc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>:</orth>
+    <lex><base>:</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>profesora</orth>
+    <lex><base>profesor</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>profesor</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>zwyczajnego</orth>
+    <lex><base>zwyczajny</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+    <lex><base>zwyczajny</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+    <lex><base>zwyczajny</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+    <lex><base>zwyczajny</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+    <lex><base>zwyczajny</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <lex><base>zwyczajny</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>profesora</orth>
+    <lex><base>profesor</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>profesor</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>nadzwyczajnego</orth>
+    <lex><base>nadzwyczajny</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+    <lex><base>nadzwyczajny</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+    <lex><base>nadzwyczajny</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+    <lex><base>nadzwyczajny</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+    <lex><base>nadzwyczajny</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <lex><base>nadzwyczajny</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>profesora</orth>
+    <lex><base>profesor</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>profesor</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>wizytującego</orth>
+    <lex><base>wizytować</base><ctag>pact:sg:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>wizytować</base><ctag>pact:sg:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>wizytować</base><ctag>pact:sg:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>wizytować</base><ctag>pact:sg:acc:m2:imperf:aff</ctag></lex>
+    <lex><base>wizytować</base><ctag>pact:sg:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>wizytować</base><ctag>pact:sg:gen:n:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>zwanych</orth>
+    <lex><base>zwać</base><ctag>ppas:pl:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:loc:m1:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:loc:m2:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:loc:m3:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:gen:f:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:loc:f:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:gen:n:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:loc:n:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>dalej</orth>
+    <lex><base>dalej</base><ctag>interj</ctag></lex>
+    <lex><base>daleko</base><ctag>adv:com</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>&quot;</orth>
+    <lex><base>&quot;</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>stanowiskami</orth>
+    <lex><base>stanowisko</base><ctag>subst:pl:inst:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>profesorów</orth>
+    <lex><base>profesor</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>profesor</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>&quot;</orth>
+    <lex><base>&quot;</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>wynikającą</orth>
+    <lex><base>wynikać</base><ctag>pact:sg:acc:f:imperf:aff</ctag></lex>
+    <lex><base>wynikać</base><ctag>pact:sg:inst:f:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>danych</orth>
+    <lex><base>dana</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>dana</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:loc:n</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>nadesłanych</orth>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>przez</orth>
+    <lex><base>przez</base><ctag>prep:acc:nwok</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>oznacza</orth>
+    <lex><base>oznaczać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="wsd_oznaczać">2</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+    <prop key="sense:wsd_oznaczać">oznaczać-2</prop>
+   </tok>
+   <tok>
+    <orth>liczbę</orth>
+    <lex><base>liczba</base><ctag>subst:sg:acc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>zatrudnionych</orth>
+    <lex><base>zatrudniona</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>zatrudniona</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:loc:m1</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>etatach</orth>
+    <lex><base>etat</base><ctag>subst:pl:loc:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tej</orth>
+    <lex><base>ten</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelni</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>na</orth>
+    <lex><base>na</base><ctag>interj</ctag></lex>
+    <lex><base>na</base><ctag>prep:acc</ctag></lex>
+    <lex><base>na</base><ctag>prep:loc</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>stanowiskach</orth>
+    <lex><base>stanowisko</base><ctag>subst:pl:loc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>:</orth>
+    <lex><base>:</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>docenta</orth>
+    <lex><base>docent</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>docent</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>adiunkta</orth>
+    <lex><base>adiunkt</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>adiunkt</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>starszego</orth>
+    <lex><base>starszy</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>starszy</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:gen:m1:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:acc:m1:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:gen:m2:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:acc:m2:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:gen:m3:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:gen:n:com</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>wykładowcy</orth>
+    <lex><base>wykładowca</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>wykładowca</base><ctag>subst:sg:dat:m1</ctag></lex>
+    <lex><base>wykładowca</base><ctag>subst:sg:loc:m1</ctag></lex>
+    <lex><base>wykładowca</base><ctag>subst:pl:nom:m1</ctag></lex>
+    <lex><base>wykładowca</base><ctag>subst:pl:voc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>starszego</orth>
+    <lex><base>starszy</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>starszy</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:gen:m1:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:acc:m1:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:gen:m2:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:acc:m2:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:gen:m3:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:gen:n:com</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>kustosza</orth>
+    <lex><base>kustosz</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>kustosz</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <lex><base>kustosz</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>dyplomowanego</orth>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m1:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m1:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m2:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m2:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m2:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m3:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:n:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>starszego</orth>
+    <lex><base>starszy</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>starszy</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:gen:m1:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:acc:m1:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:gen:m2:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:acc:m2:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:gen:m3:com</ctag></lex>
+    <lex><base>stary</base><ctag>adj:sg:gen:n:com</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>dokumentalisty</orth>
+    <lex><base>dokumentalista</base><ctag>depr:pl:nom:m2</ctag></lex>
+    <lex><base>dokumentalista</base><ctag>depr:pl:voc:m2</ctag></lex>
+    <lex><base>dokumentalista</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>dyplomowanego</orth>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m1:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m1:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m2:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m2:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m2:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m3:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:n:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>kustosza</orth>
+    <lex><base>kustosz</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>kustosz</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <lex><base>kustosz</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>dyplomowanego</orth>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m1:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m1:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m2:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m2:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m2:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m3:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:n:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>dokumentalisty</orth>
+    <lex><base>dokumentalista</base><ctag>depr:pl:nom:m2</ctag></lex>
+    <lex><base>dokumentalista</base><ctag>depr:pl:voc:m2</ctag></lex>
+    <lex><base>dokumentalista</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>dyplomowanego</orth>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <lex><base>dyplomowany</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m1:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m1:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m2:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m2:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:acc:m2:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:m3:perf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:n:imperf:aff</ctag></lex>
+    <lex><base>dyplomować</base><ctag>ppas:sg:gen:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>adiunkta</orth>
+    <lex><base>adiunkt</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>adiunkt</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>bibliotecznego</orth>
+    <lex><base>biblioteczny</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>adiunkta</orth>
+    <lex><base>adiunkt</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>adiunkt</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>dokumentacji</orth>
+    <lex><base>dokumentacja</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>dokumentacja</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>dokumentacja</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>dokumentacja</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>informacji</orth>
+    <lex><base>informacja</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>informacja</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>informacja</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>informacja</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>naukowej</orth>
+    <lex><base>naukowy</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>naukowy</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>naukowy</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>a</orth>
+    <lex><base>a</base><ctag>conj</ctag></lex>
+    <lex><base>a</base><ctag>interj</ctag></lex>
+    <lex><base>a</base><ctag>prep:nom</ctag></lex>
+    <lex><base>a</base><ctag>qub</ctag></lex>
+    <lex><base>albo</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>także</orth>
+    <lex><base>także</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>posiadających</orth>
+    <lex><base>posiadający</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:loc:m1:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:loc:m2:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:loc:m3:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:gen:f:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:loc:f:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:gen:n:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:loc:n:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">1</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+    <prop key="sense:wsd_posiadać">posiadać-2</prop>
+   </tok>
+   <tok>
+    <orth>stopień</orth>
+    <lex><base>stopień</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <lex><base>stopień</base><ctag>subst:sg:acc:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>doktora</orth>
+    <lex><base>doktor</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>doktor</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <lex><base>doktór</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>doktór</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>zatrudnionych</orth>
+    <lex><base>zatrudniona</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>zatrudniona</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:loc:m1</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>na</orth>
+    <lex><base>na</base><ctag>interj</ctag></lex>
+    <lex><base>na</base><ctag>prep:acc</ctag></lex>
+    <lex><base>na</base><ctag>prep:loc</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>stanowiskach</orth>
+    <lex><base>stanowisko</base><ctag>subst:pl:loc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>:</orth>
+    <lex><base>:</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>asystenta</orth>
+    <lex><base>asystent</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>asystent</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>wykładowcy</orth>
+    <lex><base>wykładowca</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>wykładowca</base><ctag>subst:sg:dat:m1</ctag></lex>
+    <lex><base>wykładowca</base><ctag>subst:sg:loc:m1</ctag></lex>
+    <lex><base>wykładowca</base><ctag>subst:pl:nom:m1</ctag></lex>
+    <lex><base>wykładowca</base><ctag>subst:pl:voc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>lektora</orth>
+    <lex><base>lektor</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>lektor</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <lex><base>lektor</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>instruktora</orth>
+    <lex><base>instruktor</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>instruktor</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>asystenta</orth>
+    <lex><base>asystent</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>asystent</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>bibliotecznego</orth>
+    <lex><base>biblioteczny</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>asystenta</orth>
+    <lex><base>asystent</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>asystent</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>dokumentacji</orth>
+    <lex><base>dokumentacja</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>dokumentacja</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>dokumentacja</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>dokumentacja</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>informacji</orth>
+    <lex><base>informacja</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>informacja</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>informacja</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>informacja</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>naukowej</orth>
+    <lex><base>naukowy</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>naukowy</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>naukowy</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>zwanych</orth>
+    <lex><base>zwać</base><ctag>ppas:pl:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:loc:m1:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:loc:m2:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:loc:m3:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:gen:f:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:loc:f:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:gen:n:imperf:aff</ctag></lex>
+    <lex><base>zwać</base><ctag>ppas:pl:loc:n:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>dalej</orth>
+    <lex><base>dalej</base><ctag>interj</ctag></lex>
+    <lex><base>daleko</base><ctag>adv:com</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>&quot;</orth>
+    <lex><base>&quot;</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>stanowiskami</orth>
+    <lex><base>stanowisko</base><ctag>subst:pl:inst:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>adiunktów</orth>
+    <lex><base>adiunkt</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>adiunkt</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>&quot;</orth>
+    <lex><base>&quot;</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>wynikającą</orth>
+    <lex><base>wynikać</base><ctag>pact:sg:acc:f:imperf:aff</ctag></lex>
+    <lex><base>wynikać</base><ctag>pact:sg:inst:f:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>danych</orth>
+    <lex><base>dana</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>dana</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:loc:n</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>nadesłanych</orth>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>przez</orth>
+    <lex><base>przez</base><ctag>prep:acc:nwok</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>oznacza</orth>
+    <lex><base>oznaczać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="wsd_oznaczać">3</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+    <prop key="sense:wsd_oznaczać">oznaczać-2</prop>
+   </tok>
+   <tok>
+    <orth>liczbę</orth>
+    <lex><base>liczba</base><ctag>subst:sg:acc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>zatrudnionych</orth>
+    <lex><base>zatrudniona</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>zatrudniona</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:loc:m1</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>etatach</orth>
+    <lex><base>etat</base><ctag>subst:pl:loc:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tej</orth>
+    <lex><base>ten</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelni</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>na</orth>
+    <lex><base>na</base><ctag>interj</ctag></lex>
+    <lex><base>na</base><ctag>prep:acc</ctag></lex>
+    <lex><base>na</base><ctag>prep:loc</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>stanowiskach</orth>
+    <lex><base>stanowisko</base><ctag>subst:pl:loc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>:</orth>
+    <lex><base>:</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>asystenta</orth>
+    <lex><base>asystent</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>asystent</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>wykładowcy</orth>
+    <lex><base>wykładowca</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>wykładowca</base><ctag>subst:sg:dat:m1</ctag></lex>
+    <lex><base>wykładowca</base><ctag>subst:sg:loc:m1</ctag></lex>
+    <lex><base>wykładowca</base><ctag>subst:pl:nom:m1</ctag></lex>
+    <lex><base>wykładowca</base><ctag>subst:pl:voc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>lektora</orth>
+    <lex><base>lektor</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>lektor</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <lex><base>lektor</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>instruktora</orth>
+    <lex><base>instruktor</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>instruktor</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>asystenta</orth>
+    <lex><base>asystent</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>asystent</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>bibliotecznego</orth>
+    <lex><base>biblioteczny</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <lex><base>biblioteczny</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>asystenta</orth>
+    <lex><base>asystent</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>asystent</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>dokumentacji</orth>
+    <lex><base>dokumentacja</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>dokumentacja</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>dokumentacja</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>dokumentacja</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>informacji</orth>
+    <lex><base>informacja</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>informacja</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>informacja</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>informacja</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>naukowej</orth>
+    <lex><base>naukowy</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>naukowy</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>naukowy</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>wyłączeniem</orth>
+    <lex><base>wyłączenie</base><ctag>subst:sg:inst:n</ctag></lex>
+    <lex><base>wyłączyć</base><ctag>ger:sg:inst:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>zatrudnionych</orth>
+    <lex><base>zatrudniona</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>zatrudniona</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <lex><base>zatrudniony</base><ctag>subst:pl:loc:m1</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>zatrudnić</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>na</orth>
+    <lex><base>na</base><ctag>interj</ctag></lex>
+    <lex><base>na</base><ctag>prep:acc</ctag></lex>
+    <lex><base>na</base><ctag>prep:loc</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>tych</orth>
+    <lex><base>Tychy</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>stanowiskach</orth>
+    <lex><base>stanowisko</base><ctag>subst:pl:loc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>posiadających</orth>
+    <lex><base>posiadający</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>posiadający</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:loc:m1:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:loc:m2:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:loc:m3:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:gen:f:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:loc:f:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:gen:n:imperf:aff</ctag></lex>
+    <lex><base>posiadać</base><ctag>pact:pl:loc:n:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">2</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+    <prop key="sense:wsd_posiadać">posiadać-2</prop>
+   </tok>
+   <tok>
+    <orth>stopień</orth>
+    <lex><base>stopień</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <lex><base>stopień</base><ctag>subst:sg:acc:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>doktora</orth>
+    <lex><base>doktor</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>doktor</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <lex><base>doktór</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>doktór</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>wynikającą</orth>
+    <lex><base>wynikać</base><ctag>pact:sg:acc:f:imperf:aff</ctag></lex>
+    <lex><base>wynikać</base><ctag>pact:sg:inst:f:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>danych</orth>
+    <lex><base>dana</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>dana</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:loc:n</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>nadesłanych</orth>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>przez</orth>
+    <lex><base>przez</base><ctag>prep:acc:nwok</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>oznacza</orth>
+    <lex><base>oznaczać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="wsd_oznaczać">4</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+    <prop key="sense:wsd_oznaczać">oznaczać-2</prop>
+   </tok>
+   <tok>
+    <orth>liczbę</orth>
+    <lex><base>liczba</base><ctag>subst:sg:acc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>profesorów</orth>
+    <lex><base>profesor</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>profesor</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>zagranicy</orth>
+    <lex><base>zagranica</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>zagranica</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>zagranica</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>cudzoziemców</orth>
+    <lex><base>cudzoziemiec</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>cudzoziemiec</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>prowadzących</orth>
+    <lex><base>prowadzić</base><ctag>pact:pl:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>prowadzić</base><ctag>pact:pl:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>prowadzić</base><ctag>pact:pl:loc:m1:imperf:aff</ctag></lex>
+    <lex><base>prowadzić</base><ctag>pact:pl:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>prowadzić</base><ctag>pact:pl:loc:m2:imperf:aff</ctag></lex>
+    <lex><base>prowadzić</base><ctag>pact:pl:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>prowadzić</base><ctag>pact:pl:loc:m3:imperf:aff</ctag></lex>
+    <lex><base>prowadzić</base><ctag>pact:pl:gen:f:imperf:aff</ctag></lex>
+    <lex><base>prowadzić</base><ctag>pact:pl:loc:f:imperf:aff</ctag></lex>
+    <lex><base>prowadzić</base><ctag>pact:pl:gen:n:imperf:aff</ctag></lex>
+    <lex><base>prowadzić</base><ctag>pact:pl:loc:n:imperf:aff</ctag></lex>
+    <lex><base>prowadząca</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>prowadząca</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>prowadzący</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <lex><base>prowadzący</base><ctag>subst:pl:acc:m1</ctag></lex>
+    <lex><base>prowadzący</base><ctag>subst:pl:loc:m1</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">1</ann>
+    <prop key="sense:wsd_prowadzić">prowadzić-8</prop>
+   </tok>
+   <tok>
+    <orth>zajęcia</orth>
+    <lex><base>zająć</base><ctag>ger:sg:gen:n:perf:aff</ctag></lex>
+    <lex><base>zajęcia</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>zajęcia</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>zajęcia</base><ctag>subst:pl:voc:n</ctag></lex>
+    <lex><base>zajęcie</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>zajęcie</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>zajęcie</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>zajęcie</base><ctag>subst:pl:voc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>przez</orth>
+    <lex><base>przez</base><ctag>prep:acc:nwok</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>okres</orth>
+    <lex><base>okres</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <lex><base>okres</base><ctag>subst:sg:acc:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>co</orth>
+    <lex><base>CO</base><ctag>subst:sg:nom:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:sg:dat:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:sg:acc:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:sg:inst:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:sg:loc:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:sg:voc:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:pl:dat:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:pl:acc:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:pl:inst:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:pl:loc:n</ctag></lex>
+    <lex><base>CO</base><ctag>subst:pl:voc:n</ctag></lex>
+    <lex><base>co</base><ctag>comp</ctag></lex>
+    <lex><base>co</base><ctag>prep:nom</ctag></lex>
+    <lex><base>co</base><ctag>prep:acc</ctag></lex>
+    <lex><base>co</base><ctag>qub</ctag></lex>
+    <lex><base>co</base><ctag>subst:sg:nom:n</ctag></lex>
+    <lex><base>co</base><ctag>subst:sg:gen:n</ctag></lex>
+    <lex><base>co</base><ctag>subst:sg:acc:n</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>najmniej</orth>
+    <lex><base>mało</base><ctag>adv:sup</ctag></lex>
+    <lex><base>najmniej</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>semestru</orth>
+    <lex><base>semestr</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>lub</orth>
+    <lex><base>Luba</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>lub</base><ctag>conj</ctag></lex>
+    <lex><base>lubić</base><ctag>impt:sg:sec:imperf</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>60</orth>
+    <lex><base>60</base><ctag>ign</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>godzin</orth>
+    <lex><base>godzina</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tej</orth>
+    <lex><base>ten</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+    <lex><base>ten</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelni</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex><base>uczelnia</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>wyłączeniem</orth>
+    <lex><base>wyłączenie</base><ctag>subst:sg:inst:n</ctag></lex>
+    <lex><base>wyłączyć</base><ctag>ger:sg:inst:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>pozostających</orth>
+    <lex><base>pozostawać</base><ctag>pact:pl:gen:m1:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:acc:m1:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:loc:m1:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:gen:m2:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:loc:m2:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:gen:m3:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:loc:m3:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:gen:f:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:loc:f:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:gen:n:imperf:aff</ctag></lex>
+    <lex><base>pozostawać</base><ctag>pact:pl:loc:n:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tą</orth>
+    <lex><base>ten</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelnią</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:inst:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+    <lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>stosunku</orth>
+    <lex><base>stosunek</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <lex><base>stosunek</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <lex><base>stosunek</base><ctag>subst:sg:voc:m3</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>pracy</orth>
+    <lex><base>praca</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex><base>praca</base><ctag>subst:sg:dat:f</ctag></lex>
+    <lex><base>praca</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>wynikającą</orth>
+    <lex><base>wynikać</base><ctag>pact:sg:acc:f:imperf:aff</ctag></lex>
+    <lex><base>wynikać</base><ctag>pact:sg:inst:f:imperf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+    <lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <lex><base>z</base><ctag>qub</ctag></lex>
+    <lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>danych</orth>
+    <lex><base>dana</base><ctag>subst:pl:gen:f</ctag></lex>
+    <lex><base>dana</base><ctag>subst:pl:loc:f</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:gen:n</ctag></lex>
+    <lex><base>dane</base><ctag>subst:pl:loc:n</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+    <lex><base>dany</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>dać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>nadesłanych</orth>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+    <lex><base>nadesłać</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>przez</orth>
+    <lex><base>przez</base><ctag>prep:acc:nwok</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex><base>i</base><ctag>conj</ctag></lex>
+    <lex><base>i</base><ctag>interj</ctag></lex>
+    <lex><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>tą</orth>
+    <lex><base>ten</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <tok>
+    <orth>uczelnię</orth>
+    <lex><base>uczelnia</base><ctag>subst:sg:acc:f</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="wsd_oznaczać">0</ann>
+    <ann chan="wsd_posiadać">0</ann>
+    <ann chan="wsd_prowadzić">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+</chunkList>

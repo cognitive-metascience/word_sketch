@@ -1,5 +1,5 @@
 import re
-
+from bs4 import BeautifulSoup
 import grammar_import
 
 
@@ -133,15 +133,42 @@ class ColocSet:     #ten obiekt zawiera informację o wszystkich kolokacjach bę
             i.writeout()
 
 
+def transform_xml_line(root):
+    #extract from tags
+    word = root.find("orth")
+    pom = root.find("lex")
+    tag = pom.find("ctag")
+    lemma = pom.find("base")
+    #drop tags
+    w = str(re.search('<[a-z]{4}>(.*?)</[a-z]{4}>', str(word)).group(1))
+    t = str(re.search('<[a-z]{4}>(.*?)</[a-z]{4}>', str(tag)).group(1))
+    l = str(re.search('<[a-z]{4}>(.*?)</[a-z]{4}>', str(lemma)).group(1))
+
+    final = w + "	" + t + "	" + l
+    return final
 
 
 class Corpus:
-    def __init__(self,path):
+    def __init__(self,path,KPWr=False):
         self.words=[]
-        input=open(path,"r",encoding="UTF-8")
-        for n in input:
-            if n[0]!="<":
-                self.words.append(Word(n))
+        if KPWr:
+            with open(path, 'r', encoding="utf-8") as f:
+                # read and parse data
+                data = f.read()
+                Bs_data = BeautifulSoup(data, "xml")
+                tokens = Bs_data.find_all('tok')
+                for t in tokens:
+                    res = transform_xml_line(t)
+                    self.words.append(Word(res))
+        else:
+            input=open(path,"r",encoding="UTF-8")
+            for n in input:
+                if n[0]!="<":
+                    self.words.append(Word(n))
+
+    def writeout(self):
+        for w in self.words:
+            w.writeout()
 
     def search(self,query,searched_lemma,searched_label):
         results=ColocSet()

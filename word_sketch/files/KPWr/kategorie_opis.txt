@@ -1,0 +1,19 @@
+00101187.xml -> wikipedia ZEFIR
+
+00102314.xml -> blog
+
+00101717.xml -> dap - Kultura 2.0
+
+00101888.xml -> popularnonaukowe - Słowianie
+
+00101615.xml -> proza dawna
+
+00101546.xml -> techniczne
+
+00101724.xml -> ustawa
+
+00102743.xml -> urzędowe
+
+00101525.xml -> stenogram
+
+00100622.xml -> kap - dyskryminacja
