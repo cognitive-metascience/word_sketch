@@ -4,6 +4,7 @@ import grammar_import
 print()
 print("Gramatyka j. francuskiego:")
 
+
 #ta funkcja wczytuje plik z korpusem, przetwarza go, i zapisuje w obiekcie 'Corpus' jako listę obiektów "Word", które zawierają
 #informacje o treści, tagu, i lemmie każdego słowa po kolei.
 corpus=grammar_structure.Corpus("files/korpus_trojjezyczny__french.vert")
