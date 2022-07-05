@@ -1,240 +1,245 @@
-import re
-from bs4 import BeautifulSoup
-import grammar_import
+import cqls
+
+import corpus_structure
+import grammar_edit
+import query_structure
 
 
-class Word:
-    def __init__(self, line):
-        word=""
-        tag=""
-        lemma=""
-        which_part=0
-        lemma_cutoff=False
-        for i in range(len(line)):
-            if line[i]=="\t":
-                which_part=which_part+1
-            else:
-                if which_part==0:
-                    word=word+line[i]
-                elif which_part==1:
-                    tag=tag+line[i]
-                elif which_part==2:
-                    if line[i]=="-":
-                        lemma_cutoff=True
-                    else:
-                        if lemma_cutoff==False:
-                            lemma=lemma+line[i]
-        self.word=word.lower()
-        self.tag = tag
-        self.lemma=lemma
+class Collocation:      #ta funkcja przechowuje kolokację. Zapisuje jej nazwę, wszystkie wyszukiwania które pozwalają znaleźć
+                        #jej występowania, i label który w tych wyszukiwaniach ma słowo podawane w zapytaniu.
+    def __init__(self, name, queries):
+        self.name=name
+        self.queries=queries
 
+    def search(self,lemma,corpus):      #ta funkcja wykonuje wszystkie wyszukiwania zapisane w kolokacji, i łączy ich wyniki w jeden
+                                        #duży wynik wyszukiwania całej kolokacji
+        big_query=corpus.search(self.queries[0],lemma,self.queries[0].label)
+        for i in range(1,len(self.queries)):
+            big_query.join(corpus.search(self.queries[i],lemma,self.queries[i].label))
+        return big_query
+
+    def search_for_all(self,corpus):
+        big_query = corpus.search_for_all(self.queries[0])
+        for i in range(1, len(self.queries)):
+            big_query.join(corpus.search_for_all(self.queries[i]))
+        return big_query
+
+    def add(self,query):
+        self.queries.append(query)
 
     def writeout(self):
-        print(self.word)
-        print("tag= "+self.tag)
-        print("lemma= "+self.lemma)
-
-    def equals(self,other):
-        if self.word==other.word:
-            return True
-        else:
-            return False
-
-    def match(self, attribute): #ta funkcja sprawdza czy dane słowo spełnia warunki zapisane w gramatyce, w formacie jsonowym
-                                #{"match":{"tag":{...},"word":{...},lemma:{...}},"not_match":{"tag":{...},"word":{...},lemma:{...}}}
-        match=True
-        if "match" in attribute.keys():
-            match_keys=attribute["match"].keys()
-            if "word" in match_keys:
-                for i in attribute["match"]["word"]:
-                    if not re.fullmatch(i, self.word):
-                            match=False
-            if "tag" in match_keys:
-                for i in attribute["match"]["tag"]:
-                    if not re.fullmatch(i, self.tag):
-                        match=False
-            if "lemma" in match_keys:
-                for i in attribute["match"]["lemma"]:
-                    if not re.fullmatch(i, self.lemma):
-                        match=False
-        if "not_match" in attribute.keys():
-            not_match_keys = attribute["not_match"].keys()
-            if "word" in not_match_keys:
-                for i in attribute["not_match"]["word"]:
-                    if re.fullmatch(i, self.word):
-                        match=False
-            if "tag" in not_match_keys:
-                for i in attribute["not_match"]["tag"]:
-                    if re.fullmatch(i, self.tag):
-                        match=False
-            if "lemma" in not_match_keys:
-                for i in attribute["not_match"]["lemma"]:
-                    if re.fullmatch(i, self.lemma):
-                        match=False
-        return match
+        print(self.name)
+        print("Queries:")
+        for i in self.queries:
+            print(i.label)
+            print(i.type_of_first_word)
+            print(i.properties)
+        print()
 
 
-class Coloc:                #ten obiekt zapisuje informacje o jednej kolokacji: jakie słowa zawierała, w jakiej kolejności były
-                            #ułożone, i które z nich było zadane w wyszukiwaniu (label) a które są wynikami wyszukiwania.
-    def __init__(self,label):
-        self.words = {}
-        self.order=[]
-        self.label=label
-
-    def clone(self):
-        clone= Coloc(self.label)
-        clone.words=self.words.copy()
-        clone.order=self.order.copy()
-        return clone
-
-    def equals(self,other):
-        if self.words.keys()==other.words.keys() and self.label==other.label:
-            result=True
-            for i in self.words.keys():
-                if self.words[i]!=other.words[i]:
-                    result=False
-            return result
-        else:
-            return False
-
-    def writeout(self):
-        sentence=""
-        for i in self.order:
-            if i=="...":
-                sentence=sentence+" ..."
-            elif str(i)!=str(self.label):
-                if self.words[str(i)]!="'s":
-                    sentence = sentence + " "
-                sentence=sentence+'\033[1m'+ self.words[str(i)]+'\033[0m'
-            else:
-                sentence=sentence+" "+self.words[str(i)]
-        print(sentence)
-
-class ColocSet:     #ten obiekt zawiera informację o wszystkich kolokacjach będących wynikami danego wyszukiwania, pod postacią słownika,
-                    #gdzie każdej kolokacji przypisuję ilość jej wystąpień.
+class Grammar:
     def __init__(self):
-        self.colocs = {}
-    def add(self,coloc,amount):
-        add=True
-        for i in self.colocs.keys():
-            if coloc.equals(i) and add==True:
-                self.colocs[i]=self.colocs[i]+amount
-                add=False
-        if add==True:
-            self.colocs[coloc]=amount
-
-    def join(self,other):
-        for i in other.colocs.keys():
-            self.add(i,other.colocs[i])
+        self.order=[] #order to kolejność w której mamy wypisywać kolokacje, podana w pliku gramatyki powierzchniowej
+        self.collocations=[]
+        self.first_word_types={}
 
     def writeout(self):
-        for i in self.colocs.keys():
-            print("Amount: "+str(self.colocs[i]))
-            i.writeout()
-
-
-def transform_xml_line(root):
-    #extract from tags
-    word = root.find("orth")
-    pom = root.find("lex")
-    tag = pom.find("ctag")
-    lemma = pom.find("base")
-    #drop tags
-    w = str(re.search('<[a-z]{4}>(.*?)</[a-z]{4}>', str(word)).group(1))
-    t = str(re.search('<[a-z]{4}>(.*?)</[a-z]{4}>', str(tag)).group(1))
-    l = str(re.search('<[a-z]{4}>(.*?)</[a-z]{4}>', str(lemma)).group(1))
-
-    final = w + "	" + t + "	" + l
-    return final
-
-
-class Corpus:
-    def __init__(self,path,KPWr=False):
-        self.words=[]
-        if KPWr:
-            with open(path, 'r', encoding="utf-8") as f:
-                # read and parse data
-                data = f.read()
-                Bs_data = BeautifulSoup(data, "xml")
-                tokens = Bs_data.find_all('tok')
-                for t in tokens:
-                    res = transform_xml_line(t)
-                    self.words.append(Word(res))
+        if self.order==[]:
+            for j in self.collocations:
+                j.writeout()
         else:
-            input=open(path,"r",encoding="UTF-8")
-            for n in input:
-                if n[0]!="<":
-                    self.words.append(Word(n))
+            for i in self.order:
+                for j in self.collocations:
+                    if j.name==i:
+                        j.writeout()
 
+    def find_all(self, corpus):
+        sketch = {}
+        if self.order == []:
+            for j in self.collocations:
+                result = j.search_for_all(corpus)
+                if len(result.whole_coloc_amount) > 0:
+                    sketch[j.name] = result
+        for i in self.order:
+            for j in self.collocations:
+                if j.name == i:
+                    result = j.search_for_all(corpus)
+                    if len(result.whole_coloc_amount) > 0:
+                        sketch[j.name] = result
+        return sketch
+
+class Amount:
+    def __init__(self,min,max):
+        self.min=min
+        self.max=max
     def writeout(self):
-        for w in self.words:
-            w.writeout()
+        print("{"+str(self.min)+","+str(self.max)+"}")
 
-    def search(self,query,searched_lemma,searched_label):
-        results=ColocSet()
-        attributes=query.properties
-        amounts=query.amounts
-        for j in range(len(self.words)):
-            result= Coloc(searched_label)
-            self.check_here(attributes,amounts,j,searched_lemma,searched_label,result.clone(),results)
-        return results
+def parse_amounts(amounts):
+    parsed_amounts=[]
+    for i in range(len(amounts)):
+        if amounts[i]==",":
+            amount= Amount(int(amounts[i-1]),int(amounts[i+1]))
+            parsed_amounts.append(amount)
+    return parsed_amounts
 
-    def check_here(self,attributes,amounts,place,searched_lemma,searched_label,result,results):
-        if len(attributes)==0:
-            results.add(result,1)
-        elif len(self.words)>place+1:
-            if amounts[0].min==0:
-                attributes1=attributes.copy()
-                amounts1=amounts.copy()
-                attributes1.pop(0)
-                amounts1.pop(0)
-                self.check_here(attributes1, amounts1,place,searched_lemma,searched_label,result.clone(),results)
-                if amounts[0].max>0:
-                    attributes2=attributes.copy()
-                    amounts2=amounts.copy()
-                    amounts2.pop(0)
-                    amounts2.insert(0,grammar_import.Amount(1,amounts[0].max))
-                    self.check_here(attributes2,amounts2,place,searched_lemma,searched_label,result.clone(),results)
-            else:
-                if len(attributes[0][0])==1:
-                    if self.words[place].match(attributes[0][0][0]):
-                        attributes1 = attributes.copy()
-                        amounts1 = amounts.copy()
-                        if "__label__" in attributes[0][0][0].keys():
-                            a=str(attributes[0][0][0]["__label__"][0])
-                            result.words[a]=self.words[place].word
-                            result.order.append(a)
-                            if a==str(searched_label):
-                                if self.words[place].lemma==searched_lemma:
-                                    amounts1.pop(0)
-                                    amounts1.insert(0,grammar_import.Amount(amounts[0].min - 1, amounts[0].max - 1))
-                                    self.check_here(attributes1, amounts1, place + 1, searched_lemma, searched_label,result.clone(), results)
-                            else:
-                                amounts1.pop(0)
-                                amounts1.insert(0,grammar_import.Amount(amounts[0].min - 1, amounts[0].max - 1))
-                                self.check_here(attributes1, amounts1, place + 1, searched_lemma, searched_label,result.clone(), results)
+def parse_extra(extra):
+    additional_rules=""
+    if extra != "":
+        additional_rules=extra[1:]
+    return additional_rules
+
+
+def parse_properties(line):
+    properties=[]
+    bit=""
+    in_parenthases=0
+    in_brackets=0
+    for i in range(len(line)):
+        bit=bit+line[i]
+        if in_parenthases==0 and in_brackets==0:
+            if line[i]=="[":
+                in_brackets=1
+            elif line[i]=="(":
+                in_parenthases=1
+            elif line[i]=="*":
+                bit=""
+        else:
+            if line[i]=="[" and in_brackets!=0:
+                in_brackets=in_brackets+1
+            if line[i]=="]" and in_brackets!=0:
+                in_brackets=in_brackets-1
+                if in_brackets==0:
+                    properties.append(cqls.parse(bit))
+                    bit=""
+            if line[i]=="(" and in_parenthases!=0:
+                in_parenthases=in_parenthases+1
+            if line[i]==")" and in_parenthases!=0:
+                in_parenthases=in_parenthases-1
+                if in_parenthases==0:
+                    properties.append(cqls.parse(bit))
+                    bit=""
+    return properties
+
+
+
+
+def read_grammar_file(path):
+    grammar_edit.edit_grammar(path,"files/tmp/grammar_out.txt")
+    grammar_file=open("files/tmp/grammar_out.txt")
+    grammar=Grammar()
+    dual=False
+    symmetric=False
+    where_is_1=-1
+    where_is_2=-1
+    for line in grammar_file:
+        if line[0]!="#":
+            if line.startswith("*FIXORDER"):
+                option=""
+                how_many=0
+                for i in range(len(line)):
+                    if line[i]==";" or line[i]=="\n":
+                        if how_many > 0:
+                            grammar.order.append(option)
+                        how_many=how_many+1
+                        option=""
+                    else:
+                        option=option+line[i]
+            elif line.startswith("*SYMMETRIC"):
+                symmetric=True
+            elif line.startswith("*DUAL"):
+                dual=True
+            elif line.startswith("="):
+                if dual:
+                    name1=""
+                    name2=""
+                    second=False
+                    for i in range(1,len(line)-1):
+                        if line[i]=="/":
+                            second=True
+                        elif not second:
+                            name1=name1+line[i]
                         else:
-                            if len(result.order)==1:
-                                result.order.append("...")
-                            amounts1.pop(0)
-                            amounts1.insert(0,grammar_import.Amount(amounts[0].min-1,amounts[0].max-1))
-                            self.check_here(attributes1,amounts1,place+1,searched_lemma,searched_label,result.clone(),results)
+                            name2=name2+line[i]
+                    add1=True
+                    add2=True
+                    for x in range(len(grammar.collocations)):
+                        if grammar.collocations[x].name==name1:
+                            add1=False
+                            where_is_1=x
+                        if grammar.collocations[x].name==name2:
+                            add2=False
+                            where_is_2=x
+                    if add1:
+                        grammar.collocations.append(Collocation(name1,[]))
+                        where_is_1=len(grammar.collocations)-1
+                    if add2:
+                        grammar.collocations.append(Collocation(name2, []))
+                        where_is_2=len(grammar.collocations)-1
                 else:
-                    match=True
-                    for i in range(len(attributes[0][0])):
-                        if not self.words[place+i].match(attributes[0][0][i]):
-                            match=False
-                    if match:
-                        attributes1 = attributes.copy()
-                        amounts1 = amounts.copy()
-                        if len(result.order)==1:
-                            result.order.append("...")
-                        amounts1.pop(0)
-                        amounts1.insert(0,grammar_import.Amount(amounts[0].min-1,amounts[0].max-1))
-                        self.check_here(attributes1,amounts1,place+len(attributes[0][0]),searched_lemma,searched_label,result.clone(),results)
+                    name=""
+                    for i in range(1,len(line)-1):
+                        name=name+line[i]
+                    grammar.collocations.append(Collocation(name,[]))
+                    where_is_1 = len(grammar.collocations) - 1
+            elif line=="\n":
+                dual=False
+                symmetric=False
+            elif not line.startswith("*"):
+                line2=""
+                amounts=""
+                extra=""
+                is_extra=True
+                is_amounts=False
+                for i in range(2,len(line)+1):
+                    if line[len(line)-i]==")" and is_extra==True:
+                        is_extra=False
+                        is_amounts=True
+                    if line[len(line)-i]=="]" and is_amounts==True:
+                        is_amounts=False
 
+                    if is_extra==True:
+                        extra=line[len(line)-i]+extra
+                    elif is_amounts==True:
+                        amounts=line[len(line)-i]+amounts
+                    else:
+                        line2=line[len(line)-i]+line2
+                amounts_parsed=parse_amounts(amounts)
+                properties=parse_properties(line2)
+                additional_rules=parse_extra(extra)
+                if amounts_parsed[0].min>0:
+                    type={}
+                    if "match" in properties[0][0][0].keys():
+                        type["match"]=properties[0][0][0]["match"]
+                    else:
+                        type["match"]={}
+                    if "not_match" in properties[0][0][0].keys():
+                        type["not_match"] = properties[0][0][0]["not_match"]
+                    else:
+                        type["match"]={}
+                    matched=False
+                    for word_type in grammar.first_word_types.keys():
+                        if matched==False and grammar.first_word_types[word_type]["match"]==type["match"] and grammar.first_word_types[word_type]["not_match"]==type["not_match"]:
+                            type_of_first_word=word_type
+                            matched=True
+                    if matched==False:
+                        type_of_first_word = len(grammar.first_word_types)+1
+                        grammar.first_word_types[type_of_first_word]=type
+                else:
+                    type_of_first_word = 0
 
+                query=query_structure.Query(properties,amounts_parsed,additional_rules,type_of_first_word,1)
+                query2=query_structure.Query(properties,amounts_parsed,additional_rules,type_of_first_word,2)
 
+                if symmetric:
+                    grammar.collocations[where_is_1].add(query)
+                    grammar.collocations[where_is_1].add(query2)
+                elif dual:
+                    grammar.collocations[where_is_1].add(query)
+                    grammar.collocations[where_is_2].add(query2)
+                else:
+                    grammar.collocations[where_is_1].add(query)
+    return grammar
 
 
 

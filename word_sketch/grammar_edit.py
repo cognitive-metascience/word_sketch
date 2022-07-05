@@ -1,8 +1,5 @@
 import sys
 
-
-
-
 def add_tags(line):
     opened=False
     bad=False
