@@ -4,24 +4,20 @@ import corpus_structure
 import grammar_edit
 import query_structure
 
-
-class Collocation:      #ta funkcja przechowuje kolokację. Zapisuje jej nazwę, wszystkie wyszukiwania które pozwalają znaleźć
-                        #jej występowania, i label który w tych wyszukiwaniach ma słowo podawane w zapytaniu.
+'''
+An object of this class holds information about the name of a collocation type, and about every query
+that comprises it. It allows for searching through all of the corpus for all of the phrases that fit
+one of those queries.
+'''
+class Collocation:
     def __init__(self, name, queries):
         self.name=name
         self.queries=queries
 
-    def search(self,lemma,corpus):      #ta funkcja wykonuje wszystkie wyszukiwania zapisane w kolokacji, i łączy ich wyniki w jeden
-                                        #duży wynik wyszukiwania całej kolokacji
-        big_query=corpus.search(self.queries[0],lemma,self.queries[0].label)
-        for i in range(1,len(self.queries)):
-            big_query.join(corpus.search(self.queries[i],lemma,self.queries[i].label))
-        return big_query
-
-    def search_for_all(self,corpus):
-        big_query = corpus.search_for_all(self.queries[0])
+    def search(self,corpus):
+        big_query = corpus.search(self.queries[0])
         for i in range(1, len(self.queries)):
-            big_query.join(corpus.search_for_all(self.queries[i]))
+            big_query.join(corpus.search(self.queries[i]))
         return big_query
 
     def add(self,query):
@@ -36,10 +32,13 @@ class Collocation:      #ta funkcja przechowuje kolokację. Zapisuje jej nazwę,
             print(i.properties)
         print()
 
-
+'''
+An object of this class holds information about every collocation that comprises a sketch grammar, and 
+the order that the information about them should be returned in.
+'''
 class Grammar:
     def __init__(self):
-        self.order=[] #order to kolejność w której mamy wypisywać kolokacje, podana w pliku gramatyki powierzchniowej
+        self.order=[]
         self.collocations=[]
         self.first_word_types={}
 
@@ -57,39 +56,22 @@ class Grammar:
         sketch = {}
         if self.order == []:
             for j in self.collocations:
-                result = j.search_for_all(corpus)
+                result = j.search(corpus)
                 if len(result.whole_coloc_amount) > 0:
                     sketch[j.name] = result
         for i in self.order:
             for j in self.collocations:
                 if j.name == i:
-                    result = j.search_for_all(corpus)
+                    result = j.search(corpus)
                     if len(result.whole_coloc_amount) > 0:
                         sketch[j.name] = result
         return sketch
 
-class Amount:
-    def __init__(self,min,max):
-        self.min=min
-        self.max=max
-    def writeout(self):
-        print("{"+str(self.min)+","+str(self.max)+"}")
 
-def parse_amounts(amounts):
-    parsed_amounts=[]
-    for i in range(len(amounts)):
-        if amounts[i]==",":
-            amount= Amount(int(amounts[i-1]),int(amounts[i+1]))
-            parsed_amounts.append(amount)
-    return parsed_amounts
-
-def parse_extra(extra):
-    additional_rules=""
-    if extra != "":
-        additional_rules=extra[1:]
-    return additional_rules
-
-
+'''
+This function parses information about the properties, the first part of a sketch grammar line that was edited
+by grammar_edit.edit_grammar. For more information, see query_structure.
+'''
 def parse_properties(line):
     properties=[]
     bit=""
@@ -121,9 +103,40 @@ def parse_properties(line):
                     bit=""
     return properties
 
+'''
+This function parses information about the amounts, the second part of a sketch grammar line that was edited
+by grammar_edit.edit_grammar. For more information, see query_structure.
+'''
+class Amount:
+    def __init__(self,min,max):
+        self.min=min
+        self.max=max
+    def writeout(self):
+        print("{"+str(self.min)+","+str(self.max)+"}")
+
+def parse_amounts(amounts):
+    parsed_amounts=[]
+    for i in range(len(amounts)):
+        if amounts[i]==",":
+            amount= Amount(int(amounts[i-1]),int(amounts[i+1]))
+            parsed_amounts.append(amount)
+    return parsed_amounts
+
+'''
+This function parses information about the additional rules, the third part of a sketch grammar line that was edited
+by grammar_edit.edit_grammar. For more information, see query_structure.
+'''
+def parse_extra(extra):
+    additional_rules=""
+    if extra != "":
+        additional_rules=extra[1:]
+    return additional_rules
 
 
-
+'''
+This function takes in a sketch grammar file, parses it, and returns a Grammar object that contains the grammar
+described in it.
+'''
 def read_grammar_file(path):
     grammar_edit.edit_grammar(path,"files/tmp/grammar_out.txt")
     grammar_file=open("files/tmp/grammar_out.txt")

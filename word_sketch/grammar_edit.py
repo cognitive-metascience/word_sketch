@@ -1,5 +1,7 @@
 import sys
 
+
+#This function transforms "..." into "[tag=...]" in a line from a sketch grammar, in order for it to be parsed by cqls
 def add_tags(line):
     opened=False
     bad=False
@@ -26,7 +28,9 @@ def add_tags(line):
                 line2=line2+line[i]
     return line2
 
-
+#This function transforms "[tag="..."]|[tag="..."]" into "[tag="...|..."]" in a line from a sketch grammar, in order for
+# it to be parsed by cqls properly. It works the same way for words and lemmas, and has a special case for ",", because
+#[lemma=","],[tag=","] and [word=","] mean the same thing.
 def better_ors(line):
     word=False
     tag=False
@@ -95,7 +99,8 @@ def better_ors(line):
             line2=line2+line[cuts[i]:cuts[i+1]]
     return line2
 
-
+#This function removes unneeded parenthases from a line from a sketch grammar,
+# in order for it to be parsed properly by cqls.
 def remove_unneeded_parenthases(line):
     how_many_parenthases_deep=0
     opening=0
@@ -139,6 +144,7 @@ def remove_unneeded_parenthases(line):
             where_first_equals_sign=0
     return line2
 
+#This function removes spaces from a line from a sketch grammar, in order for it to be parsed properly by cqls
 def remove_spaces(line):
     line2=""
     for i in range(len(line)):
@@ -146,6 +152,7 @@ def remove_spaces(line):
             line2=line2+line[i]
     return line2
 
+#This function adds amounts to a line from a sketch grammar. Where there were no written amounts, it adds "{1,1}"
 def add_amounts(line):
     line2=""
     opened=0
@@ -163,6 +170,7 @@ def add_amounts(line):
             line2 = line2 + "{0,1}"
     return line2
 
+#This function moves the information about amounts to the end of the line in a line from a sketch grammar.
 def move_amounts(line):
     is_extra=True
     line2=""
@@ -193,11 +201,9 @@ def move_amounts(line):
         else:
             line3=line3+line2[i]
     amounts=amounts+")"
-
-
     return line3+amounts+extra+"\n"
 
-
+#This function uses all of the above functions to change the sketch grammar into an easier to parse form.
 def edit_grammar(path_in,path_out):
     input=open(path_in,"r")
     output=open(path_out,"w")
