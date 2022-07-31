@@ -1,8 +1,8 @@
 import cqls
+from tqdm import tqdm
 
-import corpus_structure
-import grammar_edit
-import query_structure
+from .grammar_edit import edit_grammar
+from .query_structure import Query
 
 '''
 An object of this class holds information about the name of a collocation type, and about every query
@@ -53,18 +53,21 @@ class Grammar:
                         j.writeout()
 
     def find_all(self, corpus):
+        print("Searching for collocations:")
         sketch = {}
+        how_many_collocations = len(self.collocations)
         if self.order == []:
-            for j in self.collocations:
+            for j in tqdm(self.collocations,total=how_many_collocations):
                 result = j.search(corpus)
                 if len(result.whole_coloc_amount) > 0:
                     sketch[j.name] = result
-        for i in self.order:
-            for j in self.collocations:
-                if j.name == i:
-                    result = j.search(corpus)
-                    if len(result.whole_coloc_amount) > 0:
-                        sketch[j.name] = result
+        else:
+            for i in tqdm(self.order,total=how_many_collocations):
+                for j in self.collocations:
+                    if j.name == i:
+                        result = j.search(corpus)
+                        if len(result.whole_coloc_amount) > 0:
+                            sketch[j.name] = result
         return sketch
 
 
@@ -138,8 +141,8 @@ This function takes in a sketch grammar file, parses it, and returns a Grammar o
 described in it.
 '''
 def read_grammar_file(path):
-    grammar_edit.edit_grammar(path,"files/tmp/grammar_out.txt")
-    grammar_file=open("files/tmp/grammar_out.txt")
+    edit_grammar(path,"word_sketch/files/tmp/grammar_out.txt")
+    grammar_file=open("word_sketch/files/tmp/grammar_out.txt")
     grammar=Grammar()
     dual=False
     symmetric=False
@@ -241,8 +244,8 @@ def read_grammar_file(path):
                 else:
                     type_of_first_word = 0
 
-                query=query_structure.Query(properties,amounts_parsed,additional_rules,type_of_first_word,1)
-                query2=query_structure.Query(properties,amounts_parsed,additional_rules,type_of_first_word,2)
+                query=Query(properties,amounts_parsed,additional_rules,type_of_first_word,1)
+                query2=Query(properties,amounts_parsed,additional_rules,type_of_first_word,2)
 
                 if symmetric:
                     grammar.collocations[where_is_1].add(query)

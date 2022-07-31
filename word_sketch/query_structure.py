@@ -1,5 +1,3 @@
-import corpus_structure
-import grammar_structure
 import math
 
 
