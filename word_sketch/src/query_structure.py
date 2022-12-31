@@ -150,7 +150,7 @@ class GrammarGraph(dict):
     def give_keys(self):
         return [col for col in self]
 
-    def write_one(self, col,amount,lemma,tag): #wypisanie konkretnej kolokacji
+    def write_one(self, col,amount,lemma,tag):
         self[col].writeout(col,amount,lemma,tag)
 
     def common_collocations(self, amount, lemma1, lemma2):

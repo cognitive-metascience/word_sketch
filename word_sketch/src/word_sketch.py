@@ -3,7 +3,6 @@ import time
 import nltk
 from nltk.stem import WordNetLemmatizer
 from tqdm import tqdm
-import pandas as pd
 
 
 from .corpus_structure import Corpus
