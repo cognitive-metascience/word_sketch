@@ -141,8 +141,8 @@ This function takes in a sketch grammar file, parses it, and returns a Grammar o
 described in it.
 '''
 def read_grammar_file(path):
-    edit_grammar(path,"word_sketch/files/tmp/grammar_out.txt")
-    grammar_file=open("word_sketch/files/tmp/grammar_out.txt")
+    edit_grammar(path,"files/tmp/grammar_out.txt")
+    grammar_file=open("files/tmp/grammar_out.txt")
     grammar=Grammar()
     dual=False
     symmetric=False
