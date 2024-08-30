@@ -124,3 +124,6 @@ test()
 ### Summary
 
 The "Word Sketch" library enables collocation analysis in textual corpora, providing tools for tagging, parsing, and searching for collocations. It requires proper preparation of input data and grammar configuration. This documentation outlines the basic steps needed to utilize the library's functionality.
+
+
+##### Library Documentation Created by Jędrzej Rymsza (4egis)
